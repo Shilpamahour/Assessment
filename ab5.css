@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212;  /* Black background */
+    color: #f8f9fa; /* Light text */
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0f678d, #323536);
+    color: white;
+    padding: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    background: #1e1e1e; /* Dark gray background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    font-size: 12px;
+    /*font-weight: bold;*/
+    background: #377c9f;
+    color: white;
+    margin: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+/* Resume Download Button */
+#resume a {
+    text-decoration: none;
+    color: white;
+    background: #ff5733;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease-in-out;
+}
+
+#resume a:hover {
+    background: #cc4422;
+}
+
+/* Contact Links */
+#contact a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px;
+}
+
+#contact a:nth-child(1) { background: #0077b5; } /* LinkedIn */
+#contact a:nth-child(2) { background: #24292e; } /* GitHub */
+#contact a:nth-child(3) { background: #d14836; } /* Email */
+
+#contact a:hover {
+    opacity: 0.8;
+}
+
+/* Chatbot */
+#chatbox {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #1e1e1e;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+#chat {
+    height: 200px;
+    overflow-y: auto;
+    background: #252525;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    color: white;
+}
+
+/* Input Box */
+#userInput {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #005bb5;
+}
